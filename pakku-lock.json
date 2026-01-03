@@ -8,7 +8,7 @@
     },
     "projects": [
         {
-            "pakku_id": "wkaGAnGAyXNYimV0",
+            "pakku_id": "vGQM7AfEqexuwe7D",
             "type": "MOD",
             "slug": {
                 "curseforge": "carpet"
@@ -44,7 +44,7 @@
             ]
         },
         {
-            "pakku_id": "XSWuVu4E5VxGfPaw",
+            "pakku_id": "UbzpXLohu2e4T6n1",
             "type": "MOD",
             "slug": {
                 "curseforge": "dashloader"
@@ -82,9 +82,9 @@
             ]
         },
         {
-            "pakku_id": "tNZMQ3hyWd3yxS0U",
+            "pakku_id": "39QDrpCy0Pi5z6zJ",
             "pakku_links": [
-                "xotzTgCrpBHXszSH"
+                "Ykkp978o0dDyrCe8"
             ],
             "type": "MOD",
             "slug": {
@@ -124,7 +124,7 @@
             ]
         },
         {
-            "pakku_id": "BLcohLDP8toTU9ke",
+            "pakku_id": "0lEGCg7dvv7Sbfbt",
             "type": "MOD",
             "slug": {
                 "curseforge": "entityculling"
@@ -163,7 +163,7 @@
             ]
         },
         {
-            "pakku_id": "xotzTgCrpBHXszSH",
+            "pakku_id": "Ykkp978o0dDyrCe8",
             "type": "MOD",
             "slug": {
                 "curseforge": "fabric-api"
@@ -199,7 +199,7 @@
             ]
         },
         {
-            "pakku_id": "FlmH16QBlqCWqiDZ",
+            "pakku_id": "NQtag8ylp8ybvht2",
             "type": "MOD",
             "slug": {
                 "curseforge": "ferritecore-fabric"
@@ -235,7 +235,7 @@
             ]
         },
         {
-            "pakku_id": "OTDAuGuMqV6XsyIp",
+            "pakku_id": "9mjk8SlvU6M7XCQ9",
             "type": "MOD",
             "slug": {
                 "curseforge": "irisshaders"
@@ -249,7 +249,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "iris-mc1.18.2-1.2.5.jar",
+                    "file_name": "iris-mc1.18.2-1.2.6.jar",
                     "mc_versions": [
                         "1.18.2"
                     ],
@@ -257,23 +257,23 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/3820/231/iris-mc1.18.2-1.2.5.jar",
-                    "id": "3820231",
+                    "url": "https://edge.forgecdn.net/files/3899/702/iris-mc1.18.2-1.2.6.jar",
+                    "id": "3899702",
                     "parent_id": "455508",
                     "hashes": {
-                        "sha1": "57237aeaff64a362b7b1695e18c42317d3bcf374",
-                        "md5": "d5ec2a8babd0dbf95da81a7d7f9a3d15"
+                        "sha1": "11fdf2e0d81a5692bbbe8d6f4c7f686210bd141f",
+                        "md5": "ef7739927dcd8e8244276cd5f161e5cb"
                     },
                     "required_dependencies": [
                         "394468"
                     ],
-                    "size": 1553813,
-                    "date_published": "2022-06-07T00:57:47.317Z"
+                    "size": 1567041,
+                    "date_published": "2022-07-25T22:05:33.930Z"
                 }
             ]
         },
         {
-            "pakku_id": "s8TZLLTozWpr2gcR",
+            "pakku_id": "ryATKHQaAmjU2N07",
             "type": "MOD",
             "slug": {
                 "curseforge": "item-scroller"
@@ -311,7 +311,7 @@
             ]
         },
         {
-            "pakku_id": "s5Khv0OD8U7J4Ucr",
+            "pakku_id": "1E2pXk7EO9gt84Uf",
             "type": "MOD",
             "slug": {
                 "curseforge": "krypton"
@@ -348,7 +348,7 @@
             ]
         },
         {
-            "pakku_id": "EF35kJeqyVlxQuUL",
+            "pakku_id": "8vAG6NUX4QkiBQNr",
             "type": "MOD",
             "slug": {
                 "curseforge": "lazydfu"
@@ -386,7 +386,7 @@
             ]
         },
         {
-            "pakku_id": "lfuTrfLr4cC653aU",
+            "pakku_id": "7xK6BySevOTcMuN8",
             "type": "MOD",
             "slug": {
                 "curseforge": "litematica"
@@ -424,7 +424,7 @@
             ]
         },
         {
-            "pakku_id": "kGXOhtHPYZTXwJ1M",
+            "pakku_id": "varpLYGTBh8EKlNt",
             "type": "MOD",
             "slug": {
                 "curseforge": "lithium"
@@ -460,7 +460,7 @@
             ]
         },
         {
-            "pakku_id": "DjgBQ90wTHr6WBNx",
+            "pakku_id": "QvQidDc7vWiLtQUw",
             "type": "MOD",
             "slug": {
                 "curseforge": "malilib"
@@ -496,7 +496,7 @@
             ]
         },
         {
-            "pakku_id": "hFEg92YQQnQ8SOCu",
+            "pakku_id": "SMqLkCMAeY7bFrQQ",
             "type": "MOD",
             "slug": {
                 "curseforge": "minihud"
@@ -510,7 +510,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "minihud-fabric-1.18.2-0.22.0.jar",
+                    "file_name": "minihud-fabric-1.18.2-0.22.1.jar",
                     "mc_versions": [
                         "1.18.2"
                     ],
@@ -518,23 +518,23 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/3671/392/minihud-fabric-1.18.2-0.22.0.jar",
-                    "id": "3671392",
+                    "url": "https://edge.forgecdn.net/files/3909/308/minihud-fabric-1.18.2-0.22.1.jar",
+                    "id": "3909308",
                     "parent_id": "244260",
                     "hashes": {
-                        "sha1": "dc85e2befc102c9260f6eebeb72317043ce6530a",
-                        "md5": "a0f7c4555bca74b5ea7af36807e47e7e"
+                        "sha1": "b8101d801f8625b03d61707997b3a27197375785",
+                        "md5": "3a972478f3ade539c94167a26bac03b7"
                     },
                     "required_dependencies": [
                         "303119"
                     ],
-                    "size": 318373,
-                    "date_published": "2022-03-03T22:23:31.653Z"
+                    "size": 317183,
+                    "date_published": "2022-07-31T11:01:38.393Z"
                 }
             ]
         },
         {
-            "pakku_id": "6wVl1s3f5mvet3Tc",
+            "pakku_id": "X4i4YTQiPc6NMeMz",
             "type": "MOD",
             "slug": {
                 "curseforge": "modmenu"
@@ -570,7 +570,7 @@
             ]
         },
         {
-            "pakku_id": "IWlz60ina0xZ5abO",
+            "pakku_id": "FWtKHN03wALBYR2i",
             "type": "MOD",
             "slug": {
                 "curseforge": "mouse-wheelie"
@@ -606,7 +606,48 @@
             ]
         },
         {
-            "pakku_id": "YBFBuqDPgtBHIovy",
+            "pakku_id": "5kLM6mrEiKkpXL1e",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "no-telemetry"
+            },
+            "name": {
+                "curseforge": "No Telemetry"
+            },
+            "id": {
+                "curseforge": "530816"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "no-telemetry-1.4.0.jar",
+                    "mc_versions": [
+                        "1.18.1",
+                        "1.18.2",
+                        "1.18",
+                        "1.18-Snapshot"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/3860/571/no-telemetry-1.4.0.jar",
+                    "id": "3860571",
+                    "parent_id": "530816",
+                    "hashes": {
+                        "sha1": "10e117acc8f9e08ae1fadf4341e4d9d413ef092c",
+                        "md5": "b8d4450e9e068b1d0f0664b1cafca80f"
+                    },
+                    "required_dependencies": [],
+                    "size": 83046,
+                    "date_published": "2022-07-05T19:40:03.823Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "7HfUpbXBByDCq47i",
             "type": "MOD",
             "slug": {
                 "curseforge": "phosphor"
@@ -644,7 +685,7 @@
             ]
         },
         {
-            "pakku_id": "XfMcncnXMS4XdVgl",
+            "pakku_id": "sfKhJVebmQKnv1ab",
             "type": "MOD",
             "slug": {
                 "curseforge": "sodium"
@@ -680,7 +721,7 @@
             ]
         },
         {
-            "pakku_id": "tP4AmoRGq0jOEvVA",
+            "pakku_id": "KcIdAzHGTVyYq9fY",
             "type": "MOD",
             "slug": {
                 "curseforge": "tweakeroo"
@@ -718,9 +759,9 @@
             ]
         },
         {
-            "pakku_id": "DMd3aue90DPIOZ8q",
+            "pakku_id": "MSXXZp8E9daij3Bz",
             "pakku_links": [
-                "xotzTgCrpBHXszSH"
+                "Ykkp978o0dDyrCe8"
             ],
             "type": "MOD",
             "slug": {
