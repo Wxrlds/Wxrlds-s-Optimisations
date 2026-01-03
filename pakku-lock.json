@@ -6,8 +6,8 @@
   },
   "projects": [
     {
-      "pakku_id": "AyJSeKCBoTO7zgaj",
-      "pakku_links": ["W9a84ylWxUr3qp6W"],
+      "pakku_id": "7Y7FHL15NUU1oVOn",
+      "pakku_links": ["OCD7WxnJ099V6ZQK"],
       "type": "MOD",
       "slug": {
         "curseforge": "entityculling"
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "pakku_id": "W9a84ylWxUr3qp6W",
+      "pakku_id": "OCD7WxnJ099V6ZQK",
       "type": "MOD",
       "slug": {
         "curseforge": "fabric-api"
@@ -72,8 +72,8 @@
       ]
     },
     {
-      "pakku_id": "br1xceTFdMMmrBcs",
-      "pakku_links": ["DePxeoePda60ppsE"],
+      "pakku_id": "YWUFrIGDqcn6qG7S",
+      "pakku_links": ["8lk55zDsj70MJP9N"],
       "type": "MOD",
       "slug": {
         "curseforge": "irisshaders"
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "pakku_id": "q96UY2c0N5EvcQ54",
+      "pakku_id": "RVicw7EMrva0HgHS",
       "type": "MOD",
       "slug": {
         "curseforge": "krypton"
@@ -137,7 +137,7 @@
       ]
     },
     {
-      "pakku_id": "6b9EMj0BJyM9pTFG",
+      "pakku_id": "DDfLGHl2imc4O5th",
       "type": "MOD",
       "slug": {
         "curseforge": "lazydfu"
@@ -169,7 +169,7 @@
       ]
     },
     {
-      "pakku_id": "TPEGkkjDdUpevyOj",
+      "pakku_id": "6XsEWmv7FJ6BbZL6",
       "type": "MOD",
       "slug": {
         "curseforge": "litematica"
@@ -201,7 +201,7 @@
       ]
     },
     {
-      "pakku_id": "WOr7AcIiFeWy9uVu",
+      "pakku_id": "t1xZYmvVGO4lbg4A",
       "type": "MOD",
       "slug": {
         "curseforge": "lithium"
@@ -215,25 +215,25 @@
       "files": [
         {
           "type": "curseforge",
-          "file_name": "lithium-fabric-mc1.18.1-0.7.6.jar",
+          "file_name": "lithium-fabric-mc1.18.1-0.7.7.jar",
           "mc_versions": ["1.18.1"],
           "loaders": ["fabric"],
           "release_type": "release",
-          "url": "https://edge.forgecdn.net/files/3565/566/lithium-fabric-mc1.18.1-0.7.6.jar",
-          "id": "3565566",
+          "url": "https://edge.forgecdn.net/files/3590/908/lithium-fabric-mc1.18.1-0.7.7.jar",
+          "id": "3590908",
           "parent_id": "360438",
           "hashes": {
-            "sha1": "90c9399eaf16d56c0312c72c9f3697f0cded6416",
-            "md5": "78db5a281defce0ccd4ef27b1be3fb58"
+            "sha1": "8eaffcb994e67ac7b3fd2efa526f7721f8327d11",
+            "md5": "c27f69d8a5a5091512233bf375b5f042"
           },
           "required_dependencies": [],
-          "size": 387086,
-          "date_published": "2021-12-13T21:08:56.177Z"
+          "size": 391313,
+          "date_published": "2022-01-02T12:00:52.513Z"
         }
       ]
     },
     {
-      "pakku_id": "nOXqBYFg6lWKCbnr",
+      "pakku_id": "fpi60RD8hXav9vbt",
       "type": "MOD",
       "slug": {
         "curseforge": "modmenu"
@@ -265,39 +265,7 @@
       ]
     },
     {
-      "pakku_id": "gsi3MYPpidd7ML4h",
-      "type": "MOD",
-      "slug": {
-        "curseforge": "mouse-wheelie"
-      },
-      "name": {
-        "curseforge": "Mouse Wheelie (Fabric)"
-      },
-      "id": {
-        "curseforge": "317514"
-      },
-      "files": [
-        {
-          "type": "curseforge",
-          "file_name": "mousewheelie-1.8.0+mc1.18-pre5.jar",
-          "mc_versions": ["1.18.1", "1.18", "1.18-Snapshot"],
-          "loaders": ["fabric"],
-          "release_type": "release",
-          "url": "https://edge.forgecdn.net/files/3538/698/mousewheelie-1.8.0+mc1.18-pre5.jar",
-          "id": "3538698",
-          "parent_id": "317514",
-          "hashes": {
-            "sha1": "a6bfc954e33a23ead3b92de3adcc45598ebceb09",
-            "md5": "41f9a09ba8dd55d3c2a74551e84b12d7"
-          },
-          "required_dependencies": [],
-          "size": 912122,
-          "date_published": "2021-11-27T15:17:14.510Z"
-        }
-      ]
-    },
-    {
-      "pakku_id": "1y7fOETABvo4BGoz",
+      "pakku_id": "2fCMBeOgyvFKbJlc",
       "type": "MOD",
       "slug": {
         "curseforge": "ok-zoomer"
@@ -329,7 +297,7 @@
       ]
     },
     {
-      "pakku_id": "OSWpWfOPsvgDQjCQ",
+      "pakku_id": "DKWhqXBdWlJNppvo",
       "type": "MOD",
       "slug": {
         "curseforge": "phosphor"
@@ -361,7 +329,7 @@
       ]
     },
     {
-      "pakku_id": "DePxeoePda60ppsE",
+      "pakku_id": "8lk55zDsj70MJP9N",
       "type": "MOD",
       "slug": {
         "curseforge": "sodium"
@@ -393,7 +361,7 @@
       ]
     },
     {
-      "pakku_id": "Va1Gue1OXvAXqZet",
+      "pakku_id": "vXuRc4t9lmZ9i7s0",
       "type": "MOD",
       "slug": {
         "curseforge": "tweakeroo"
@@ -425,7 +393,7 @@
       ]
     },
     {
-      "pakku_id": "fB4GGVsjoiABb3eo",
+      "pakku_id": "8nbnivpM335I8HYN",
       "type": "MOD",
       "slug": {
         "curseforge": "multiconnect"
