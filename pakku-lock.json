@@ -6,8 +6,41 @@
   },
   "projects": [
     {
-      "pakku_id": "7Y7FHL15NUU1oVOn",
-      "pakku_links": ["OCD7WxnJ099V6ZQK"],
+      "pakku_id": "l5Gdt6Ozq5DCEZs6",
+      "pakku_links": ["vTRCHXoa0Kp8aZea"],
+      "type": "MOD",
+      "slug": {
+        "curseforge": "enhanced-block-entities"
+      },
+      "name": {
+        "curseforge": "Enhanced Block Entities"
+      },
+      "id": {
+        "curseforge": "452046"
+      },
+      "files": [
+        {
+          "type": "curseforge",
+          "file_name": "enhancedblockentities-0.5+1.18.jar",
+          "mc_versions": ["1.18.1", "1.18"],
+          "loaders": ["fabric"],
+          "release_type": "release",
+          "url": "https://edge.forgecdn.net/files/3557/31/enhancedblockentities-0.5+1.18.jar",
+          "id": "3557031",
+          "parent_id": "452046",
+          "hashes": {
+            "sha1": "c7111f560caf965c18a13edcfbe789a87cf904f4",
+            "md5": "553a18a59dcc84cea4965c5cf851211c"
+          },
+          "required_dependencies": ["306612"],
+          "size": 262810,
+          "date_published": "2021-12-10T05:52:11.487Z"
+        }
+      ]
+    },
+    {
+      "pakku_id": "VsOHJeRxmwgk5FqK",
+      "pakku_links": ["vTRCHXoa0Kp8aZea"],
       "type": "MOD",
       "slug": {
         "curseforge": "entityculling"
@@ -40,7 +73,7 @@
       ]
     },
     {
-      "pakku_id": "OCD7WxnJ099V6ZQK",
+      "pakku_id": "vTRCHXoa0Kp8aZea",
       "type": "MOD",
       "slug": {
         "curseforge": "fabric-api"
@@ -54,26 +87,58 @@
       "files": [
         {
           "type": "curseforge",
-          "file_name": "fabric-api-0.45.0+1.18.jar",
+          "file_name": "fabric-api-0.45.1+1.18.jar",
           "mc_versions": ["1.18.1"],
           "loaders": ["fabric"],
-          "release_type": "release",
-          "url": "https://edge.forgecdn.net/files/3577/46/fabric-api-0.45.0+1.18.jar",
-          "id": "3577046",
+          "release_type": "beta",
+          "url": "https://edge.forgecdn.net/files/3591/502/fabric-api-0.45.1+1.18.jar",
+          "id": "3591502",
           "parent_id": "306612",
           "hashes": {
-            "sha1": "23cca3b5a4f57adbd46dbdcf198759932c001db1",
-            "md5": "f23fd6e4b81bb02b532ad0aaa1af59c1"
+            "sha1": "2fc9ddbeac6eebc77c30f53d1d54a41a055c5c8c",
+            "md5": "275b1d37f39778fa6f0848821cf67f46"
           },
           "required_dependencies": [],
-          "size": 1144830,
-          "date_published": "2021-12-22T20:08:24.447Z"
+          "size": 1155950,
+          "date_published": "2022-01-02T20:24:45.690Z"
         }
       ]
     },
     {
-      "pakku_id": "YWUFrIGDqcn6qG7S",
-      "pakku_links": ["8lk55zDsj70MJP9N"],
+      "pakku_id": "HGtasUnGxjsKw0Ci",
+      "type": "MOD",
+      "slug": {
+        "curseforge": "ferritecore-fabric"
+      },
+      "name": {
+        "curseforge": "FerriteCore (Fabric)"
+      },
+      "id": {
+        "curseforge": "459857"
+      },
+      "files": [
+        {
+          "type": "curseforge",
+          "file_name": "ferritecore-4.0.0-fabric.jar",
+          "mc_versions": ["1.18.1", "1.18"],
+          "loaders": ["fabric"],
+          "release_type": "beta",
+          "url": "https://edge.forgecdn.net/files/3550/48/ferritecore-4.0.0-fabric.jar",
+          "id": "3550048",
+          "parent_id": "459857",
+          "hashes": {
+            "sha1": "e29e1f3991ea94a161eebd9faf68f9d489d588f3",
+            "md5": "3e64d85e982a2f0f507842f1b8a5d73e"
+          },
+          "required_dependencies": [],
+          "size": 109825,
+          "date_published": "2021-12-05T09:22:55.057Z"
+        }
+      ]
+    },
+    {
+      "pakku_id": "eDvIc3SX7fsrT6Pj",
+      "pakku_links": ["1qytzA8wxPeH03Yn"],
       "type": "MOD",
       "slug": {
         "curseforge": "irisshaders"
@@ -105,7 +170,7 @@
       ]
     },
     {
-      "pakku_id": "RVicw7EMrva0HgHS",
+      "pakku_id": "OOkgWiQpORPFqnxP",
       "type": "MOD",
       "slug": {
         "curseforge": "krypton"
@@ -137,7 +202,7 @@
       ]
     },
     {
-      "pakku_id": "DDfLGHl2imc4O5th",
+      "pakku_id": "pCiKhBoyWhgMxiaA",
       "type": "MOD",
       "slug": {
         "curseforge": "lazydfu"
@@ -169,7 +234,7 @@
       ]
     },
     {
-      "pakku_id": "6XsEWmv7FJ6BbZL6",
+      "pakku_id": "9lKV6StimyhM3u9M",
       "type": "MOD",
       "slug": {
         "curseforge": "litematica"
@@ -201,7 +266,7 @@
       ]
     },
     {
-      "pakku_id": "t1xZYmvVGO4lbg4A",
+      "pakku_id": "tpi7edf6sWPOvZPp",
       "type": "MOD",
       "slug": {
         "curseforge": "lithium"
@@ -233,7 +298,7 @@
       ]
     },
     {
-      "pakku_id": "fpi60RD8hXav9vbt",
+      "pakku_id": "NpFH5ClpSK5Bmhtf",
       "type": "MOD",
       "slug": {
         "curseforge": "modmenu"
@@ -265,7 +330,40 @@
       ]
     },
     {
-      "pakku_id": "2fCMBeOgyvFKbJlc",
+      "pakku_id": "p6Wr2QVBXQaEPuZQ",
+      "type": "MOD",
+      "slug": {
+        "curseforge": "mouse-wheelie"
+      },
+      "name": {
+        "curseforge": "Mouse Wheelie (Fabric)"
+      },
+      "id": {
+        "curseforge": "317514"
+      },
+      "files": [
+        {
+          "type": "curseforge",
+          "file_name": "mousewheelie-1.8.0+mc1.18-pre5.jar",
+          "mc_versions": ["1.18.1", "1.18", "1.18-Snapshot"],
+          "loaders": ["fabric"],
+          "release_type": "release",
+          "url": "https://edge.forgecdn.net/files/3538/698/mousewheelie-1.8.0+mc1.18-pre5.jar",
+          "id": "3538698",
+          "parent_id": "317514",
+          "hashes": {
+            "sha1": "a6bfc954e33a23ead3b92de3adcc45598ebceb09",
+            "md5": "41f9a09ba8dd55d3c2a74551e84b12d7"
+          },
+          "required_dependencies": [],
+          "size": 912122,
+          "date_published": "2021-11-27T15:17:14.510Z"
+        }
+      ]
+    },
+    {
+      "pakku_id": "xkmHMp51GckceG2z",
+      "pakku_links": ["vTRCHXoa0Kp8aZea"],
       "type": "MOD",
       "slug": {
         "curseforge": "ok-zoomer"
@@ -297,7 +395,7 @@
       ]
     },
     {
-      "pakku_id": "DKWhqXBdWlJNppvo",
+      "pakku_id": "1RTHmLg6SWEnnAj1",
       "type": "MOD",
       "slug": {
         "curseforge": "phosphor"
@@ -329,7 +427,7 @@
       ]
     },
     {
-      "pakku_id": "8lk55zDsj70MJP9N",
+      "pakku_id": "1qytzA8wxPeH03Yn",
       "type": "MOD",
       "slug": {
         "curseforge": "sodium"
@@ -361,7 +459,7 @@
       ]
     },
     {
-      "pakku_id": "vXuRc4t9lmZ9i7s0",
+      "pakku_id": "nFClpOvWNSTaFoBL",
       "type": "MOD",
       "slug": {
         "curseforge": "tweakeroo"
@@ -393,7 +491,7 @@
       ]
     },
     {
-      "pakku_id": "8nbnivpM335I8HYN",
+      "pakku_id": "2BpLlLLfsUE6TMeZ",
       "type": "MOD",
       "slug": {
         "curseforge": "multiconnect"
@@ -407,20 +505,20 @@
       "files": [
         {
           "type": "curseforge",
-          "file_name": "multiconnect-1.5.7.jar",
+          "file_name": "multiconnect-1.5.9.jar",
           "mc_versions": ["1.18.1"],
           "loaders": ["fabric"],
           "release_type": "release",
-          "url": "https://edge.forgecdn.net/files/3574/173/multiconnect-1.5.7.jar",
-          "id": "3574173",
+          "url": "https://edge.forgecdn.net/files/3592/460/multiconnect-1.5.9.jar",
+          "id": "3592460",
           "parent_id": "336018",
           "hashes": {
-            "sha1": "173fb5b1404d477e67dc06015dbd2fbc0166dcb6",
-            "md5": "d7739749add1cbe004741825c8fed325"
+            "sha1": "344047be38929bc45de9688c2ee2706845c3ccbe",
+            "md5": "f04aad21d35209736cda62d49ca16f34"
           },
           "required_dependencies": [],
-          "size": 1185156,
-          "date_published": "2021-12-20T13:12:07.273Z"
+          "size": 1185194,
+          "date_published": "2022-01-03T15:45:58.397Z"
         }
       ]
     }
