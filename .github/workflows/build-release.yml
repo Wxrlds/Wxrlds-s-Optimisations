@@ -1,0 +1,135 @@
+# Used when a release is pushed to GitHub
+# This does not make use of any caching as to ensure a clean build
+# https://github.com/CaffeineMC/sodium/blob/dc7dc4c634316ac8b510d2dc8290079ebc462778/.github/workflows/build-release.yml
+# https://github.com/klikli-dev/occultism/blob/4e98f6753d61403d5efcb87368d63bd7c793d2e5/.github/workflows/build_and_publish.yaml
+# https://github.com/Kira-NT/mc-publish
+# https://wiki.fabricmc.net/tutorial:publishing_mods_using_github_actions
+
+name: build-release
+
+on:
+  push:
+    tags:
+      - 'alpha/v**'
+      - 'beta/v**'
+      - 'release/v**'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag to build from'
+        required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Setup Pakku
+        run: curl -L -o pakku.jar https://github.com/juraj-hrivnak/Pakku/releases/download/v1.3.2/pakku.jar
+
+      - name: Export modpack
+        run: java -jar pakku.jar export
+
+      - name: Get release type from Tag
+        id: get_release_type
+        run: |
+          TAG_REF="${GITHUB_REF#refs/tags/}"
+          RELEASE_TYPE=$(echo "$TAG_REF" | cut -d '/' -f 1)
+          echo "release_type=$RELEASE_TYPE" >> $GITHUB_OUTPUT
+
+      - name: Get mc version from tag
+        id: get_mc_version
+        run: |
+          TAG_REF="${GITHUB_REF#refs/tags/}"
+          MC_VERSION=$(echo "$TAG_REF" | cut -d '/' -f 2 | cut -d '-' -f 1)
+          echo "mc_version=$MC_VERSION" >> $GITHUB_OUTPUT
+
+      - name: Get version from tag
+        id: get_pack_version
+        run: |
+          TAG_REF="${GITHUB_REF#refs/tags/}"
+          PACK_VERSION=$(echo "$TAG_REF" | cut -d '/' -f 2 | cut -d '-' -f 2)
+          echo "pack_version=$PACK_VERSION" >> $GITHUB_OUTPUT
+
+      - name: Build changelog
+        id: get_changelog
+        run: |
+          REPO="github.com/${{ github.repository }}"
+          CURRENT_TAG="${GITHUB_REF#refs/tags/}"
+          echo "Current tag: $CURRENT_TAG"
+
+          # Copy new lock file so that we can generate a changelog later
+          cp pakku-lock.json pakku-lock-new.json
+
+          # All tags in current branch, without the current one
+          TAG_LIST=$(git tag --merged HEAD --sort=-creatordate | grep -E '^alpha/v|^beta/v|^release/v' | grep -v "$CURRENT_TAG" || true)
+          echo "Tag list: $TAG_LIST"
+
+          LAST_TAG=$(echo "$TAG_LIST" | sed -n 1p)
+          echo "Last tag: $LAST_TAG"
+
+          if [ -z "$LAST_TAG" ]; then
+            echo "No previous tag found. This might be the first release."
+            # Create an empty dummy file so the diff command doesn't crash
+            echo "{}" > pakku-lock-old.json
+          else
+            echo "Found previous tag: $LAST_TAG"
+
+            # Checkout previous tag to get the old file
+            git checkout "$LAST_TAG"
+            cp pakku-lock.json pakku-lock-old.json
+          fi
+
+          # Execute Diff
+          echo "Generating diff between $LAST_TAG and $CURRENT_TAG"
+          java -jar pakku.jar diff --verbose pakku-lock-old.json pakku-lock-new.json --markdown changelog.md
+
+          # 6. Read changelog and store in GITHUB_OUTPUT
+          echo "changelog<<EOF" >> $GITHUB_OUTPUT
+          cat changelog.md >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+          echo "Release type is: ${{ steps.get_release_type.outputs.release_type }}"
+          echo "MC version is: ${{ steps.get_mc_version.outputs.mc_version }}"
+          echo "Pack version is: ${{ steps.get_pack_version.outputs.pack_version }}"
+
+      - name: Upload to Modrinth & Curseforge
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: XPeeRdzS
+          modrinth-token: ${{ secrets.MODRINTH_API_TOKEN }}
+
+          curseforge-id: 563414
+          curseforge-token: ${{ secrets.CURSEFORGE_API_TOKEN }}
+
+          name: Wxrlds's Optimisations-${{ steps.get_mc_version.outputs.mc_version }}-${{ steps.get_mod_version.outputs.mod_version }}
+          game-versions: |
+            ${{ steps.get_mc_version.outputs.mc_version }}
+          loaders: |
+            fabric
+          version-type: ${{ steps.get_release_type.outputs.release_type }}
+          version: ${{ steps.get_mc_version.outputs.mc_version }}-${{ steps.get_mod_version.outputs.mod_version }}
+
+          changelog: |
+            ${{ steps.get_mc_version.outputs.mc_version }}-${{ steps.get_mod_version.outputs.mod_version }}
+
+            [Need a server? Just click on the Picture, use the code WXRLDS for 25% off of your first month and play with your friends!](https://bisecthosting.com/Wxrlds)
+
+            [![Bisect Hosting](https://www.bisecthosting.com/partners/custom-banners/7ac5059a-f314-47ac-8598-45d00bd20eb4.png)](https://bisecthosting.com/Wxrlds)
+
+            ${{ steps.get_changelog.outputs.changelog }}
+
+          modrinth-files: build/modrinth/*.mrpack
+          curseforge-files: build/curseforge/*.zip
