@@ -114,16 +114,16 @@ jobs:
           curseforge-id: 563414
           curseforge-token: ${{ secrets.CURSEFORGE_API_TOKEN }}
 
-          name: Wxrlds's Optimisations-${{ steps.get_mc_version.outputs.mc_version }}-${{ steps.get_mod_version.outputs.pack_version }}
+          name: Wxrlds's Optimisations-${{ steps.get_mc_version.outputs.mc_version }}-${{ steps.get_pack_version.outputs.pack_version }}
           game-versions: |
             ${{ steps.get_mc_version.outputs.mc_version }}
           loaders: |
             fabric
           version-type: ${{ steps.get_release_type.outputs.release_type }}
-          version: ${{ steps.get_mc_version.outputs.mc_version }}-${{ steps.get_mod_version.outputs.pack_version }}
+          version: ${{ steps.get_mc_version.outputs.mc_version }}-${{ steps.get_pack_version.outputs.pack_version }}
 
           changelog: |
-            ${{ steps.get_mc_version.outputs.mc_version }}-${{ steps.get_mod_version.outputs.pack_version }}
+            ${{ steps.get_mc_version.outputs.mc_version }}-${{ steps.get_pack_version.outputs.pack_version }}
 
             [Need a server? Just click on the Picture, use the code WXRLDS for 25% off of your first month and play with your friends!](https://bisecthosting.com/Wxrlds)
 
