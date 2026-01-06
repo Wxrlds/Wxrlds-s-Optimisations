@@ -1,7 +1,14 @@
 {
-  "name": "Wxrlds's Optimisations",
-  "version": "1.20.4-0",
-  "description": "Collection of various optimisation and QOL mods",
-  "author": "wxrlds_",
-  "overrides": ["config"]
+    "name": "Wxrlds's Optimisations",
+    "version": "1.20.6-0",
+    "description": "Collection of various optimisation and QOL mods",
+    "author": "wxrlds_",
+    "overrides": [
+        "config"
+    ],
+    "projects": {
+        "noisium": {
+            "redistributable": false
+        }
+    }
 }
