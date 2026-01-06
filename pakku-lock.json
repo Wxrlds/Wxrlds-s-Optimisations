@@ -364,6 +364,49 @@
             ]
         },
         {
+            "pakku_id": "g1ZaNgZej8MU5WIv",
+            "pakku_links": [
+                "Ef3rcEAf4kBTwOOg"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "bundles-beyond"
+            },
+            "name": {
+                "modrinth": "Bundles Beyond"
+            },
+            "id": {
+                "modrinth": "VhUy58Cq"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "bundlesbeyond-1.4.0+1.21.3+fabric.jar",
+                    "mc_versions": [
+                        "1.21.3"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/VhUy58Cq/versions/sUTJqzjR/bundlesbeyond-1.4.0+1.21.3+fabric.jar",
+                    "id": "sUTJqzjR",
+                    "parent_id": "VhUy58Cq",
+                    "hashes": {
+                        "sha512": "a570aec6d31366095e1485f92d0dbff8682fe4ee8cc7a0b059a5e130026ddad05624c984e741a9913ac806c108dd626eb93ce1296c3af051cc487940809a97fc",
+                        "sha1": "0a9f7013385e7c9d6925eff3f6e9116083708341"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 204455,
+                    "date_published": "2025-11-14T23:57:31.019574Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "bMszeNYpAri2pBKp",
             "pakku_links": [
                 "Ef3rcEAf4kBTwOOg"

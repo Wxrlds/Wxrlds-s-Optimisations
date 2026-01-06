@@ -1,6 +1,6 @@
 {
   "name": "Wxrlds's Optimisations",
-  "version": "1.21.3-0",
+  "version": "1.21.3-1",
   "description": "Collection of various optimisation and QOL mods",
   "author": "wxrlds_",
   "overrides": ["config"],
@@ -13,4 +13,3 @@
     }
   }
 }
-
