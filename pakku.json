@@ -1,6 +1,6 @@
 {
     "name": "Wxrlds's Optimisations",
-    "version": "1.21.8-0",
+    "version": "1.21.10-0",
     "description": "Collection of various optimisation and QOL mods",
     "author": "wxrlds_",
     "overrides": [
@@ -26,6 +26,12 @@
             "redistributable": false
         },
         "malilib": {
+            "redistributable": false
+        },
+        "krypton": {
+            "redistributable": false
+        },
+        "model-gap-fix": {
             "redistributable": false
         }
     }
