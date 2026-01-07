@@ -1,15 +1,20 @@
 {
-  "name": "Wxrlds's Optimisations",
-  "version": "1.21.3-1",
-  "description": "Collection of various optimisation and QOL mods",
-  "author": "wxrlds_",
-  "overrides": ["config"],
-  "projects": {
-    "noisium": {
-      "redistributable": false
-    },
-    "axiom": {
-      "redistributable": false
+    "name": "Wxrlds's Optimisations",
+    "version": "1.21.4-0",
+    "description": "Collection of various optimisation and QOL mods",
+    "author": "wxrlds_",
+    "overrides": [
+        "config"
+    ],
+    "projects": {
+        "noisium": {
+            "redistributable": false
+        },
+        "axiom": {
+            "redistributable": false
+        },
+        "calcmod": {
+            "redistributable": false
+        }
     }
-  }
 }
