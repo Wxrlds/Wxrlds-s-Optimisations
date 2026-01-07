@@ -1,6 +1,6 @@
 {
     "name": "Wxrlds's Optimisations",
-    "version": "1.21.4-0",
+    "version": "1.21.5-0",
     "description": "Collection of various optimisation and QOL mods",
     "author": "wxrlds_",
     "overrides": [
@@ -14,6 +14,21 @@
             "redistributable": false
         },
         "calcmod": {
+            "redistributable": false
+        },
+        "minihud": {
+            "redistributable": false
+        },
+        "litematica": {
+            "redistributable": false
+        },
+        "itemscroller": {
+            "redistributable": false
+        },
+        "tweakeroo": {
+            "redistributable": false
+        },
+        "malilib": {
             "redistributable": false
         }
     }
