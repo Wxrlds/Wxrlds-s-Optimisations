@@ -39,6 +39,9 @@
         },
         "text-placeholder-api": {
             "redistributable": false
+        },
+        "voxy": {
+            "redistributable": false
         }
     }
 }
