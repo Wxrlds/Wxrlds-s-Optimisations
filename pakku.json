@@ -1,47 +1,47 @@
 {
-    "name": "Wxrlds's Optimisations",
-    "version": "1.21.11-1",
-    "description": "Collection of various optimisation and QOL mods",
-    "author": "wxrlds_",
-    "overrides": [
-        "config"
-    ],
-    "projects": {
-        "axiom": {
-            "redistributable": false
-        },
-        "calcmod": {
-            "redistributable": false
-        },
-        "minihud": {
-            "redistributable": false
-        },
-        "litematica": {
-            "redistributable": false
-        },
-        "itemscroller": {
-            "redistributable": false
-        },
-        "tweakeroo": {
-            "redistributable": false
-        },
-        "malilib": {
-            "redistributable": false
-        },
-        "krypton": {
-            "redistributable": false
-        },
-        "model-gap-fix": {
-            "redistributable": false
-        },
-        "zoomify": {
-            "redistributable": false
-        },
-        "text-placeholder-api": {
-            "redistributable": false
-        },
-        "voxy": {
-            "redistributable": false
-        }
+  "name": "Wxrlds's Optimisations",
+  "version": "1.21.11-3",
+  "description": "Collection of various optimisation and QOL mods",
+  "author": "wxrlds_",
+  "overrides": ["config"],
+  "projects": {
+    "axiom": {
+      "redistributable": false
+    },
+    "calcmod": {
+      "redistributable": false
+    },
+    "minihud": {
+      "redistributable": false
+    },
+    "litematica": {
+      "redistributable": false
+    },
+    "itemscroller": {
+      "redistributable": false
+    },
+    "tweakeroo": {
+      "redistributable": false
+    },
+    "malilib": {
+      "redistributable": false
+    },
+    "krypton": {
+      "redistributable": false
+    },
+    "model-gap-fix": {
+      "redistributable": false
+    },
+    "zoomify": {
+      "redistributable": false
+    },
+    "text-placeholder-api": {
+      "redistributable": false
+    },
+    "voxy": {
+      "redistributable": false
     }
+  },
+  "export_server_side_projects_to_client": true
 }
+

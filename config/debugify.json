@@ -8,7 +8,9 @@
   "MC-116379": true,
   "MC-122477": true,
   "MC-123739": true,
+  "MC-206540": true,
   "MC-237493": true,
+  "MC-259512": true,
   "opt_out_updater": true,
   "gameplay_fixes_in_multiplayer": false,
   "default_disabled": true
