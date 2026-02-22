@@ -1,47 +1,59 @@
 {
-  "name": "Wxrlds's Optimisations",
-  "version": "1.21.11-3",
-  "description": "Collection of various optimisation and QOL mods",
-  "author": "wxrlds_",
-  "overrides": ["config"],
-  "projects": {
-    "axiom": {
-      "redistributable": false
+    "name": "Wxrlds's Optimisations",
+    "version": "1.21.11-4",
+    "description": "Collection of various optimisation and QOL mods",
+    "author": "wxrlds_",
+    "overrides": [
+        "config"
+    ],
+    "projects": {
+        "axiom": {
+            "side": "CLIENT",
+            "redistributable": false
+        },
+        "calcmod": {
+            "side": "CLIENT",
+            "redistributable": false
+        },
+        "minihud": {
+            "redistributable": false
+        },
+        "litematica": {
+            "redistributable": false
+        },
+        "itemscroller": {
+            "redistributable": false
+        },
+        "tweakeroo": {
+            "redistributable": false
+        },
+        "malilib": {
+            "redistributable": false
+        },
+        "krypton": {
+            "redistributable": false
+        },
+        "model-gap-fix": {
+            "redistributable": false
+        },
+        "zoomify": {
+            "redistributable": false
+        },
+        "text-placeholder-api": {
+            "redistributable": false
+        },
+        "voxy": {
+            "redistributable": false
+        },
+        "appleskin": {
+            "side": "CLIENT"
+        },
+        "placeholder-api": {
+            "side": "CLIENT"
+        },
+        "fzzy-config": {
+            "side": "CLIENT"
+        }
     },
-    "calcmod": {
-      "redistributable": false
-    },
-    "minihud": {
-      "redistributable": false
-    },
-    "litematica": {
-      "redistributable": false
-    },
-    "itemscroller": {
-      "redistributable": false
-    },
-    "tweakeroo": {
-      "redistributable": false
-    },
-    "malilib": {
-      "redistributable": false
-    },
-    "krypton": {
-      "redistributable": false
-    },
-    "model-gap-fix": {
-      "redistributable": false
-    },
-    "zoomify": {
-      "redistributable": false
-    },
-    "text-placeholder-api": {
-      "redistributable": false
-    },
-    "voxy": {
-      "redistributable": false
-    }
-  },
-  "export_server_side_projects_to_client": true
+    "export_server_side_projects_to_client": true
 }
-
