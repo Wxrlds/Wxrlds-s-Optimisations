@@ -152,6 +152,7 @@ jobs:
             ${{ steps.info.outputs.modpack_loader }}
           version-type: ${{ steps.info.outputs.modpack_release_type }}
           version: ${{ steps.info.outputs.modpack_version }}
+          modrinth-files: build/modrinth/*.mrpack
 
           changelog: |
             ${{ steps.info.outputs.modpack_version }}
@@ -166,8 +167,8 @@ jobs:
         if: ${{ vars.CF_PROJECT_ID != '' }}
         uses: Kir-Antipov/mc-publish@v3.3
         with:
-          modrinth-id: ${{ vars.CF_PROJECT_ID }}
-          modrinth-token: ${{ secrets.CF_PROJECT_API_TOKEN }}
+          curseforge-id: ${{ vars.CF_PROJECT_ID }}
+          curseforge-token: ${{ secrets.CF_PROJECT_API_TOKEN }}
 
           name: ${{ steps.info.outputs.modpack_name }}-${{ steps.info.outputs.modpack_version }}
           game-versions: |
@@ -176,6 +177,7 @@ jobs:
             ${{ steps.info.outputs.modpack_loader }}
           version-type: ${{ steps.info.outputs.modpack_release_type }}
           version: ${{ steps.info.outputs.modpack_version }}
+          curseforge-files: build/curseforge/*.zip
 
           changelog: |
             ${{ steps.info.outputs.modpack_version }}
