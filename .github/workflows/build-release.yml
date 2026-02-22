@@ -58,7 +58,7 @@ jobs:
           java -jar pakku.jar --debug export
 
       - name: "Rename serverpack artifacts"
-        run: mv "build/serverpack/*.zip" "build/serverpack/${{ steps.info.outputs.modpack_name }}-Server-${{ steps.info.outputs.modpack_version }}.zip"
+        run: mv build/serverpack/*.zip "build/serverpack/${{ steps.info.outputs.modpack_name }}-Server-${{ steps.info.outputs.modpack_version }}.zip"
 
       - name: "Upload serverpack artifacts to GitHub actions"
         uses: "actions/upload-artifact@v6"
