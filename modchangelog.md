@@ -1,5 +1,28 @@
 # Wxrlds's Optimisations Mod Changelogs
 
+## v1.21.11-7
+
+### Loaders
+
+#### Updated
+
+- Fabric 0.19.1 -> Fabric 0.19.2
+
+### Projects
+
+#### Added
+
+- Scribble
+
+#### Updated
+
+- Axiom-5.3.0-for-MC1.21.11.jar                    -> Axiom-5.4.1-for-MC1.21.11.jar
+- bbe-1.3.0+1.21.11.jar                            -> bbe-fabric-1.3.2+mc1.21.11.jar
+- bigsignwriter-1.6.5+1.21.11-fabric.jar           -> bigsignwriter-2.0.0+1.21.11-fabric.jar
+- fabric-language-kotlin-1.13.10+kotlin.2.3.20.jar -> fabric-language-kotlin-1.13.11+kotlin.2.3.21.jar
+- zfastnoise-1.0.27+1.21.11.jar                    -> zfastnoise-1.0.29+1.21.11.jar
+- ViaFabricPlus-4.4.11.jar                         -> ViaFabricPlus-4.4.12.jar
+
 ## v1.21.11-6
 
 ### Loaders
