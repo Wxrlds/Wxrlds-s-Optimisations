@@ -1,5 +1,13 @@
 # Wxrlds's Optimisations Mod Changelogs
 
+## v1.21.11-9
+
+### Projects
+
+#### Updated
+
+- bbe-fabric-1.3.2+mc1.21.11.jar -> bbe-fabric-1.3.3+mc1.21.11.jar
+
 ## v1.21.11-8
 
 ### Projects
