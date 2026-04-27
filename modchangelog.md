@@ -1,5 +1,18 @@
 # Wxrlds's Optimisations Mod Changelogs
 
+## v1.21.11-8
+
+### Projects
+
+#### Updated
+
+- bigsignwriter-2.0.0+1.21.11-fabric.jar -> bigsignwriter-2.0.1+1.21.11-fabric.jar
+- itemscroller-fabric-1.21.11-0.30.2.jar -> itemscroller-fabric-1.21.11-0.30.3.jar
+- litematica-fabric-1.21.11-0.26.3.jar   -> litematica-fabric-1.21.11-0.26.4.jar
+- malilib-fabric-1.21.11-0.27.8.jar      -> malilib-fabric-1.21.11-0.27.9.jar
+- minihud-fabric-1.21.11-0.38.6.jar      -> minihud-fabric-1.21.11-0.38.7.jar
+- tweakeroo-fabric-1.21.11-0.27.6.jar    -> tweakeroo-fabric-1.21.11-0.27.7.jar
+
 ## v1.21.11-7
 
 ### Loaders
