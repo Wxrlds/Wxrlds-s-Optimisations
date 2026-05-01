@@ -233,7 +233,7 @@
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "bbe-fabric-1.3.2+mc1.21.11.jar",
+                    "file_name": "bbe-fabric-1.3.3+mc1.21.11.jar",
                     "mc_versions": [
                         "1.21.11"
                     ],
@@ -241,16 +241,18 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7952/623/bbe-fabric-1.3.2+mc1.21.11.jar",
-                    "id": "7952623",
+                    "url": "https://edge.forgecdn.net/files/8001/130/bbe-fabric-1.3.3+mc1.21.11.jar",
+                    "id": "8001130",
                     "parent_id": "1434533",
                     "hashes": {
-                        "sha1": "c119d809b68093dc1b08367069c85819df71d177",
-                        "md5": "4e7ba3231804eeb2208110c5e377c887"
+                        "sha1": "72b0790ebfe572ee824dbb6c4a4b7b366d934f49",
+                        "md5": "165473b2ff9e031b25ee3f8041505a9d"
                     },
-                    "required_dependencies": [],
-                    "size": 227001,
-                    "date_published": "2026-04-19T20:48:17.857Z"
+                    "required_dependencies": [
+                        "394468"
+                    ],
+                    "size": 228056,
+                    "date_published": "2026-04-27T16:27:31.443Z"
                 }
             ]
         },
@@ -686,6 +688,67 @@
                     "required_dependencies": [],
                     "size": 1148427,
                     "date_published": "2025-12-21T13:12:04.590Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "OLkJP1IsEu28msjT",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "c2me",
+                "modrinth": "c2me-fabric"
+            },
+            "name": {
+                "curseforge": "Concurrent Chunk Management Engine",
+                "modrinth": "Concurrent Chunk Management Engine (Fabric)"
+            },
+            "id": {
+                "curseforge": "533097",
+                "modrinth": "VSNURh3q"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "c2me-fabric-mc1.21.11-0.3.7+alpha.0.9.jar",
+                    "mc_versions": [
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://edge.forgecdn.net/files/7694/219/c2me-fabric-mc1.21.11-0.3.7+alpha.0.9.jar",
+                    "id": "7694219",
+                    "parent_id": "533097",
+                    "hashes": {
+                        "sha1": "8ba48c81c03c5287b7dd1e39e66603c64a1bf3a0",
+                        "md5": "fc009fef6f7a733e88aa9f9d0d60fd70"
+                    },
+                    "required_dependencies": [],
+                    "size": 4687577,
+                    "date_published": "2026-03-01T04:16:10.080Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "c2me-fabric-mc1.21.11-0.3.7+alpha.0.9.jar",
+                    "mc_versions": [
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://cdn.modrinth.com/data/VSNURh3q/versions/vsiqVtu6/c2me-fabric-mc1.21.11-0.3.7+alpha.0.9.jar",
+                    "id": "vsiqVtu6",
+                    "parent_id": "VSNURh3q",
+                    "hashes": {
+                        "sha512": "b2f92ef8a6dc7473305211c43dd54d509cb8a0dc2bbbd89e9267efb35b0a9871d0bb1a9b3c3e5c349bafa1a60567915e19f50d2b58bb90608556f93b290d72f6",
+                        "sha1": "8ba48c81c03c5287b7dd1e39e66603c64a1bf3a0"
+                    },
+                    "required_dependencies": [],
+                    "size": 4687577,
+                    "date_published": "2026-03-01T04:16:07.905402Z"
                 }
             ]
         },
