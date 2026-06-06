@@ -1,5 +1,43 @@
 # Wxrlds's Optimisations Mod Changelogs
 
+## v1.21.11-11
+
+### Loaders
+
+#### Updated
+
+- Fabric 0.19.2 -> Fabric 0.19.3
+
+### Projects
+
+#### Added
+
+- Sodium Shadowy Path Blocks (SSPB)
+
+#### Removed
+
+- Sodium Shadowy Path Blocks
+
+#### Updated
+
+- Axiom-5.4.1-for-MC1.21.11.jar                    -> Axiom-5.4.2-for-MC1.21.11.jar
+- bbe-fabric-1.3.3+mc1.21.11.jar                   -> bbe-fabric-1.3.4+mc1.21.11.jar
+- bigsignwriter-2.0.1+1.21.11-fabric.jar           -> bigsignwriter-2.1.0+1.21.11-fabric.jar
+- chat_heads-1.2.1-fabric-1.21.11.jar              -> chat_heads-1.2.4-fabric-1.21.11.jar
+- c2me-fabric-mc1.21.11-0.3.7+alpha.0.9.jar        -> c2me-fabric-mc1.21.11-0.3.7+alpha.0.10.jar
+- entityculling-fabric-1.10.1-mc1.21.11.jar        -> entityculling-fabric-1.10.2-mc1.21.11.jar
+- fabric-api-0.141.3+1.21.11.jar                   -> fabric-api-0.141.4+1.21.11.jar
+- fabric-language-kotlin-1.13.11+kotlin.2.3.21.jar -> fabric-language-kotlin-1.13.12+kotlin.2.4.0.jar
+- zfastnoise-1.0.29+1.21.11.jar                    -> zfastnoise-1.0.32c+1.21.11.jar
+- itemscroller-fabric-1.21.11-0.30.3.jar           -> itemscroller-fabric-1.21.11-0.30.5.jar
+- litematica-fabric-1.21.11-0.26.4.jar             -> litematica-fabric-1.21.11-0.26.8.jar
+- malilib-fabric-1.21.11-0.27.9.jar                -> malilib-fabric-1.21.11-0.27.12.jar
+- minihud-fabric-1.21.11-0.38.7.jar                -> minihud-fabric-1.21.11-0.38.10.jar
+- sodium-fabric-0.8.7+mc1.21.11.jar                -> sodium-fabric-0.8.12+mc1.21.11.jar
+- tweakeroo-fabric-1.21.11-0.27.7.jar              -> tweakeroo-fabric-1.21.11-0.27.9.jar
+- ViaFabricPlus-4.4.12.jar                         -> ViaFabricPlus-4.4.13.jar
+- voxy-0.2.13-alpha.jar                            -> voxy-0.2.16-beta+1.21.11.jar
+
 ## v1.21.11-10
 
 ### Projects
