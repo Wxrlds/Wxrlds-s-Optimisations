@@ -1,5 +1,34 @@
 # Wxrlds's Optimisations Mod Changelogs
 
+## v1.21.11-12
+
+### Projects
+
+#### Added
+
+- Optimized Block Entities
+
+#### Removed
+
+- Better Block Entities
+
+#### Updated
+
+- bigsignwriter-2.1.0+1.21.11-fabric.jar           -> bigsignwriter-2.2.0+1.21.11-fabric.jar
+- bundles-beyond-1.6.1+1.21.11+fabric.jar          -> bundles-beyond-1.6.3+1.21.11+fabric.jar
+- c2me-fabric-mc1.21.11-0.3.7+alpha.0.10.jar       -> c2me-fabric-mc1.21.11-0.4.0-alpha.0.18.jar
+- entityculling-fabric-1.10.2-mc1.21.11.jar        -> entityculling-fabric-1.10.5-mc1.21.11.jar
+- zfastnoise-1.0.32c+1.21.11.jar                   -> zfastnoise-1.0.36+1.21.11.jar
+- ImmediatelyFast-Fabric-1.14.2+1.21.11.jar        -> ImmediatelyFast-Fabric-1.14.3+1.21.11.jar
+- itemscroller-fabric-1.21.11-0.30.5.jar           -> itemscroller-fabric-1.21.11-0.30.6.jar
+- litematica-fabric-1.21.11-0.26.8.jar             -> litematica-fabric-1.21.11-0.26.10.jar
+- malilib-fabric-1.21.11-0.27.12.jar               -> malilib-fabric-1.21.11-0.27.15.jar
+- minihud-fabric-1.21.11-0.38.10.jar               -> minihud-fabric-1.21.11-0.38.13.jar
+- reeses-sodium-options-fabric-2.0.3+mc1.21.11.jar -> reeses-sodium-options-fabric-2.2.2+mc1.21.11.jar
+- sodium-extra-fabric-0.8.3+mc1.21.11.jar          -> sodium-extra-fabric-0.9.1+mc1.21.11.jar
+- tweakeroo-fabric-1.21.11-0.27.9.jar              -> tweakeroo-fabric-1.21.11-0.27.11.jar
+- ViaFabricPlus-4.4.13.jar                         -> ViaFabricPlus-4.4.14.jar
+
 ## v1.21.11-11
 
 ### Loaders
