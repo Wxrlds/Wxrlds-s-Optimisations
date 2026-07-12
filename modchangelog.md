@@ -1,5 +1,17 @@
 # Wxrlds's Optimisations Mod Changelogs
 
+## v1.21.11-14
+
+### Projects
+
+#### Updated
+
+- zfastnoise-1.0.38+1.21.11.jar                    -> zfastnoise-1.0.39+1.21.11.jar
+- modmenu-17.0.0.jar                               -> modmenu-17.0.1-beta.1.jar
+- obe+1.21.11-1.1.25.jar                           -> obe+1.21.11-1.1.31.jar
+- reeses-sodium-options-fabric-2.2.2+mc1.21.11.jar -> reeses-sodium-options-fabric-2.2.3+mc1.21.11.jar
+- ScalableLux-0.1.6+fabric.c25518a-all.jar         -> ScalableLux-fabric-0.3.0-alpha.0.3-all.jar
+
 ## v1.21.11-13
 
 ### Projects
