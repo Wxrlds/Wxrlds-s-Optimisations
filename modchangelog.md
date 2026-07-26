@@ -1,5 +1,18 @@
 # Wxrlds's Optimisations Mod Changelogs
 
+## v1.21.11-15
+
+### Projects
+
+#### Updated
+
+- chat_heads-1.2.4-fabric-1.21.11.jar             -> chat_heads-1.2.5-fabric-1.21.11.jar
+- c2me-fabric-mc1.21.11-0.4.0-alpha.0.19.jar      -> c2me-fabric-mc1.21.11-0.4.0-alpha.0.23.jar
+- fabric-api-0.141.4+1.21.11.jar                  -> fabric-api-0.141.5+1.21.11.jar
+- fabric-language-kotlin-1.13.12+kotlin.2.4.0.jar -> fabric-language-kotlin-1.13.13+kotlin.2.4.10.jar
+- litematica-fabric-1.21.11-0.26.11.jar           -> litematica-fabric-1.21.11-0.26.12.jar
+- obe+1.21.11-1.1.31.jar                          -> obe+1.21.11-1.1.38.jar
+
 ## v1.21.11-14
 
 ### Projects
